@@ -16,4 +16,22 @@ Knowing the common theme of most top-rated games, we want to learn about which g
 ![The Number of Games of Each Genre Made in 2011–2020 and Total Peak Time Players Per Genre in 2011–2020](img/game_genre.png)
 
 ## “Opening Pitch” For Games
+When we look at the average playtime of games, it is surprising to see that for a game that is not rated overwhelmingly positive on steam, an average player will play it only 2–4 hours; for a game that is rated overwhelmingly positive, an average player will play it about 5–7 hours. (Players of simulation game, strategy game, and RPG game tend to play longer.) This means the first 2–4 hour gameplay sets up the “opening pitch” of the game, and the game designers need to attract the players’ eyes within this time range. If a player feels bored in the first 2 hours of a game, he is very less likely to discover the rest of the game’s contents, nor to give positive feedback.
 
+![The Average Playtime of Game of Each Genre](img/playtime.png)
+
+## The Sweetest Price Range
+If we look at the time series of games released and their prices, we will find that the more games are released at the same time, the less the average price will be. On average, the price range is between $10–$14. Now the question, what is the price range the players like the most?
+
+![Number of Game Released and Game Price Over Time](img/timeseries.png)
+
+The following chart shows the distribution of positive review rates over different game prices. We can see that most games are priced at $9.99, $14.99, and $19.99, their positive review rate distribution are centered at high 95%, and yet some games’ positive review rates could also fall 80%. Games priced under $10 on average have the higher lowest score, but the lower highest score at the same time. We may conclude that while players seem to be more lenient towards games under $10, a game priced at $10–20 is acceptable for most players and it has the potential to get more positive reviews than other price ranges.
+
+![User Review Rates over Game Market Prices](img/price.png)
+
+## Developers Good at Making Top-Rated Games
+Now let’s look at game developers who are good at producing top-rated games. We pick the top 10 game developers who produce the most overwhelmingly positive games on steam. It is amazing to see that Re-Logic and Rockstar North, each of them releasing only one overwhelmingly positive game on Steam, receives more positive reviews than the sum of all other developers who managed to make 2 to 3 top-rated games. It is clear to see that to be the most admired developer, the quality of one game defeats the quantity of games.
+
+![Developers Who Produce MostTop Rated Games](img/developers.png)
+
+> Dataset provided by [Izzy Conner](https://www.kaggle.com/izzyconner) from Kaggle: [Steam Final Video Game Metadata](https://www.kaggle.com/izzyconner/steam-final-video-game-metadata)
